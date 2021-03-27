@@ -20,6 +20,7 @@ function ripple() {
         } else {
           largestdemensions = bx.height * 3;
         }
+        ripple_div.style.pointerEvents = "none";
         ripple_div.style.height = `${largestdemensions}px`;
         ripple_div.style.width = `${largestdemensions}px`;
         ripple_div.style.transform = `translate(-50%, -50%) scale(0)`;
