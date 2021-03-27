@@ -2,7 +2,7 @@ function ripple() {
     var elements = document.querySelectorAll("[data-ripple]");
     for (let i = 0; i < elements.length; i++) {
       const el = elements[i];
-      const time = (el.getAttribute("data-time") || 1000) * 3;
+      const time = (+el.getAttribute("data-time") || 1000) * 3;
       const color = el.getAttribute("data-color") || "currentColor";
       const opacity = el.getAttribute("data-opacity") || ".3";
       const event = el.getAttribute("data-event") || "click";
