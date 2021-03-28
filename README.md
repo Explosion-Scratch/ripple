@@ -24,7 +24,7 @@ You can also use other attributes to change the way the rippl effect looks:
 | Attribute      | What it does                                           | Default        |
 |----------------|--------------------------------------------------------|----------------|
 | `data-ripple`  | Turns on the ripple effect                             | -              |
-| `data-time`    | The time in milliseconds that the ripple effect takes. | 500            |
+| `data-time`    | The time in milliseconds that the ripple effect takes. | `500`          |
 | `data-color`   | The color of the ripple.                               | `currentColor` |
 | `data-opacity` | The opacity of the ripple effect.                      | `.3`           |
 | `data-event`   | The event to ripple on.                                | `mousedown`    |
