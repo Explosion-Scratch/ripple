@@ -10,8 +10,9 @@ function ripple() {
       el.style.position = "relative";
       el.addEventListener(event, (e) => {
         var ripple_div = document.createElement("DIV");
+        ripple_div.id = "_RIPPLE_EFFECT";
         ripple_div.style.position = "absolute";
-        ripple_div.style.background = `${color}`;
+        ripple_div.style.background = color;
         ripple_div.style.borderRadius = "50%";
         var bx = el.getBoundingClientRect();
         var largestdemensions;
